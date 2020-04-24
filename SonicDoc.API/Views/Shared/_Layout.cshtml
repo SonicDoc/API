@@ -1,0 +1,157 @@
+﻿
+@{
+    SonicDoc.API.ViewModel.UsuarioViewModel objUsuario = (SonicDoc.API.ViewModel.UsuarioViewModel)Session["objUsuario"];
+    String vmNombre = String.Empty;
+    String vmDNI = String.Empty;
+    String vmCorreo = String.Empty;
+    int vmEstado = 0;
+    if (objUsuario != null)
+    {
+        vmNombre = objUsuario.Nombres;
+        vmDNI = objUsuario.DNI;
+        vmCorreo = objUsuario.Correo;
+        vmEstado = objUsuario.Estado;
+
+    }
+    @*else
+    {
+        <script> window.location.href='@Url.Action("Index", "Home")'; </script>
+    }*@
+
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonic Doc</title>
+    <link href="@Url.Content("~/Content/css/bootstrap.min.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/font-awesome/css/font-awesome.css")" rel="stylesheet">
+
+    <!-- Toastr style -->
+    <link href="@Url.Content("~/Content/css/plugins/toastr/toastr.min.css")" rel="stylesheet">
+    <!-- Gritter -->
+    <link href="@Url.Content("~/Content/js/plugins/gritter/jquery.gritter.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/css/plugins/iCheck/custom.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/css/animate.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/css/style.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css")" rel="stylesheet">
+    <link rel="icon" href="~/doc.ico"/>
+
+
+</head>
+<body class="">
+    <div id="wrapper">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element">
+                            <img alt="image" class="rounded-circle" src="~/Content/img/iOS-y-Android.png" width="48" />
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <span class="block m-t-xs font-bold">@vmNombre</span>
+                                <span class="text-muted text-xs block">@vmEstado <b class="caret"></b></span>
+                            </a>
+                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Contacts</a></li>
+                                <li><a class="dropdown-item" href="#">Mailbox</a></li>
+                                <li class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Index", "Home")">Logout</a></li>
+                            </ul>
+                        </div>
+                        <div class="logo-element">
+                            App+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index","Home",new { area = "" },null)"><i class="fa fa-th-large"></i> <span class="nav-label">Home</span></a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index","Help",new { area = "" },null)"><i class="fa fa-desktop"></i> <span class="nav-label">API</span></a>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="fa fa-edit"></i>
+                            <span class="nav-label">App</span> <span class="fa arrow"></span>
+                        </a>
+                        <ul class="nav nav-second-level collapse">
+                            <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
+                            @*<li><a href="@Url.Action("ListaOrdenventa", "Ventas")"> Lista Ventas </a></li>
+                                <li><a href="@Url.Action("AddVentas", "Ventas")"> Ventas </a></li>*@
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+        <!-- Contenido  Inicio -->
+        <div id="page-wrapper" class="gray-bg">
+            <div class="row border-bottom">
+                <nav class="navbar navbar-static-top  " role="navigation" style="margin-bottom: 0">
+                    <div class="navbar-header">
+                        <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+                    </div>
+                    <ul class="nav navbar-top-links navbar-right">
+                        <li>
+                            <span class="m-r-sm text-muted welcome-message">Bienvenido. @vmCorreo</span>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", "Home")">
+                                <i class="fa fa-sign-out"></i> Salir
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            @RenderBody()
+            @Scripts.Render("~/Content/js/jquery-3.1.1.min.js")
+            @RenderSection("scripts", required: false)
+            <div class="footer">
+                <div class="float-right">
+                    ydR <strong>CH</strong>
+                </div>
+                <div>
+                    <strong>Copyright</strong>  &copy; 2019
+                </div>
+            </div>
+        </div>
+        <!-- Contenido  Fin -->
+    </div>
+    <!-- Mainly scripts -->
+    <script src="@Url.Content("~/Content/js/popper.min.js")"></script>
+    <script src="@Url.Content("~/Content/js/jquery-3.1.1.min.js")"></script>
+    <script src="@Url.Content("~/Content/js/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/Content/js/plugins/metisMenu/jquery.metisMenu.js")"></script>
+    <script src="@Url.Content("~/Content/js/plugins/slimscroll/jquery.slimscroll.min.js")"></script>
+    <script src="@Url.Content("~/Content/js/bootstrap.js")"></script>
+    <!-- Flot -->
+    <script src="@Url.Content("~/Content/js/plugins/flot/jquery.flot.js")"></script>
+    <script src="@Url.Content("~/Content/js/plugins/flot/jquery.flot.tooltip.min.js")"></script>
+    <script src="@Url.Content("~/Content/js/plugins/flot/jquery.flot.spline.js")"></script>
+    <script src="@Url.Content("~/Content/js/plugins/flot/jquery.flot.resize.js")"></script>
+    <script src="@Url.Content("~/Content/js/plugins/flot/jquery.flot.pie.js")"></script>
+    <!-- Peity -->
+    <script src="@Url.Content("~/Content/js/plugins/peity/jquery.peity.min.js")"></script>
+    <script src="@Url.Content("~/Content/js/demo/peity-demo.js")"></script>
+    <!-- Custom and plugin javascript -->
+    <script src="@Url.Content("~/Content/js/inspinia.js")"></script>
+    <script src="@Url.Content("~/Content/js/plugins/pace/pace.min.js")"></script>
+    <!-- jQuery UI -->
+    <script src="@Url.Content("~/Content/js/plugins/jquery-ui/jquery-ui.min.js")"></script>
+    <!-- GITTER -->
+    <script src="@Url.Content("~/Content/js/plugins/gritter/jquery.gritter.min.js")"></script>
+    <!-- Sparkline -->
+    <script src="@Url.Content("~/Content/js/plugins/sparkline/jquery.sparkline.min.js")"></script>
+    <!-- Sparkline demo data  -->
+    <script src="@Url.Content("~/Content/js/demo/sparkline-demo.js")"></script>
+    <!-- ChartJS-->
+    <script src="@Url.Content("~/Content/js/plugins/chartJs/Chart.min.js")"></script>
+    <!-- Toastr -->
+    <script src="@Url.Content("~/Content/js/plugins/toastr/toastr.min.js")"></script>
+    <!-- iCheck -->
+    <script src="@Url.Content("~/Content/js/plugins/iCheck/icheck.min.js")"></script>
+</body>
+</html>
