@@ -10,9 +10,16 @@ namespace SonicDoc.API.Controllers
 {
     public class EspecialidadController : ApiController
     {
-        public string Get(int id)
+        public List<TipoModel> Get()
         {
-            return "value";
+            EspecialidadBL bl = new EspecialidadBL();
+            return bl.ListaEsp();
+        }
+
+        public List<DoctorModel> Get(int ID)
+        {
+            DoctorBL bl = new DoctorBL();
+            return bl.ListaDoctor(ID);
         }
     }
 }

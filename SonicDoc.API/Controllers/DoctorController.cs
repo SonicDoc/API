@@ -11,15 +11,26 @@ namespace SonicDoc.API.Controllers
     public class DoctorController : ApiController
     {
 
-        public List<DoctorViewModel> Get(string Filtro)
+        public List<ReservaRespuesta> Get(int ID)
         {
-            DoctorBL bl = new DoctorBL();
-            return bl.ListaDoctor(Filtro);
+            ReservaBL bl = new ReservaBL();
+            return bl.ReservaDoctor(ID);
         }
 
-        public DefaultRespuesta Post(DoctorViewModel vmDoctor)
+        public DefaultRespuesta Post(UsuarioModel mDoctor)
         {
-            return new DefaultRespuesta(true,"Felicidades");
+            DoctorBL bl = new DoctorBL();
+
+            return bl.AddDoctor(mDoctor);
+
+        }
+
+        public List<DoctorModel> Get()
+        {
+            DoctorBL bl = new DoctorBL();
+
+            return bl.ListaDoctor();
+
         }
 
     }

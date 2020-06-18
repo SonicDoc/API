@@ -10,6 +10,13 @@ namespace SonicDoc.API.Controllers
 {
     public class ReservaController : ApiController
     {
+        //Id 
+        public DefaultRespuesta Post(ReservaModel mReserva) {
 
+            ReservaBL bl = new ReservaBL();
+
+            return bl.AddReserva(mReserva);
+        }
+       
     }
 }

@@ -10,12 +10,17 @@ namespace SonicDoc.API.Controllers
 {
     public class LoginController : ApiController
     {
-
-        public LoginViewModel Get(string DNI,string Clave)
+        public LoginRespuesta Post(LoginModel mLogin)
         {
             UsuarioBL bl = new UsuarioBL();
-            return bl.Login();
+            var logR = bl.LoginUser(mLogin.Username, mLogin.Password);
+            return logR;
         }
 
+        public List<TipoModel> Get()
+        {
+            DoctorBL bl = new DoctorBL();
+            return bl.AllTurno();
+        }
     }
 }

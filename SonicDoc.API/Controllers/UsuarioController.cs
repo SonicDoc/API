@@ -10,16 +10,25 @@ namespace SonicDoc.API.Controllers
 {
     public class UsuarioController : ApiController
     {
-
-        public List<ReservaViewModel> Get(int ID) {
-
-            return new List<ReservaViewModel>();
+        public List<ReservaRespuesta> Get(int ID) {
+            ReservaBL bl = new ReservaBL();
+            return bl.ReservaUser(ID);
         }
 
-        [HttpPost]
-        public DefaultRespuesta Post(UsuarioViewModel vmUsuario)
+        public DefaultRespuesta Post(UsuarioModel mUser)
         {
-            return new DefaultRespuesta(true,"");
+            UsuarioBL bl = new UsuarioBL();
+
+            return bl.AddUsuario(mUser);
+
+        }
+
+        public List<UsuarioModel> Get()
+        {
+            UsuarioBL bl = new UsuarioBL();
+
+            return bl.getUsuarios();
+
         }
     }
 }
