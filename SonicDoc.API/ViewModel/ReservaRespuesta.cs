@@ -13,5 +13,7 @@ namespace SonicDoc.API.ViewModel
         public string Turno { set; get; }  // 8 am a 18 horas 10 horas cada 30 min = 20 atenciones por dia
         public int Sexo { set; get; }
         public int Estado { set; get; }
+        public int Tipo { set; get; }
+        public string Especialidad { set; get; }
     }
 }

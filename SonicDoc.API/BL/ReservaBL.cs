@@ -25,6 +25,8 @@ namespace SonicDoc.API.BL
                         temp.Fecha = item.Fecha.ToShortDateString();
                         temp.Estado = item.ID_Estado;
                         temp.Sexo = item.Doctor.Usuario.Sexo;
+                        temp.Tipo = 2;
+                        temp.Especialidad = item.Doctor.Especialidad.Nombre;
                         mLista.Add(temp);
                     }
                 }
@@ -55,6 +57,8 @@ namespace SonicDoc.API.BL
                         temp.Fecha = item.Fecha.ToShortDateString();
                         temp.Estado = item.ID_Estado;
                         temp.Sexo = item.Usuario.Sexo;
+                        temp.Tipo = 1;
+                        temp.Especialidad = "";
                         mLista.Add(temp);
                     }
                 }

@@ -85,10 +85,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>04/23/2020 13:42:25</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>06/18/2020 15:24:21</publishTime>
+      <publishTime>06/18/2020 16:18:43</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>06/18/2020 15:24:21</publishTime>
+      <publishTime>06/18/2020 16:18:43</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>11/03/2015 11:43:42</publishTime>
@@ -193,10 +193,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>06/18/2015 14:19:46</publishTime>
     </File>
     <File Include="bin/SonicDoc.API.dll">
-      <publishTime>06/18/2020 15:24:16</publishTime>
+      <publishTime>06/18/2020 16:18:37</publishTime>
     </File>
     <File Include="bin/SonicDoc.API.pdb">
-      <publishTime>06/18/2020 15:24:16</publishTime>
+      <publishTime>06/18/2020 16:18:37</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>01/27/2015 22:02:42</publishTime>
@@ -256,7 +256,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>04/23/2020 14:24:49</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>06/18/2020 15:24:17</publishTime>
+      <publishTime>06/18/2020 16:18:38</publishTime>
     </File>
     <File Include="Scripts/ai.0.22.9-build00167.js">
       <publishTime>04/23/2020 13:42:25</publishTime>
