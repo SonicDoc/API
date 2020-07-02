@@ -71,6 +71,7 @@ D:\ydRSoft_Sistema_Sondor\PROGRAM\SonicDoc\SonicDoc.API\bin\es\System.Web.WebPag
 D:\ydRSoft_Sistema_Sondor\PROGRAM\SonicDoc\SonicDoc.API\obj\Debug\SonicDoc.API.csprojResolveAssemblyReference.cache
 D:\ydRSoft_Sistema_Sondor\PROGRAM\SonicDoc\SonicDoc.API\obj\Debug\SonicDoc.API.dll
 D:\ydRSoft_Sistema_Sondor\PROGRAM\SonicDoc\SonicDoc.API\obj\Debug\SonicDoc.API.pdb
+<<<<<<< HEAD
 D:\UPC2020\Moviles\SonicDoc\SonicDoc.API\bin\ApplicationInsights.config
 D:\UPC2020\Moviles\SonicDoc\SonicDoc.API\bin\roslyn\csc.exe
 D:\UPC2020\Moviles\SonicDoc\SonicDoc.API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -146,3 +147,80 @@ D:\UPC2020\Moviles\SonicDoc\SonicDoc.API\obj\Debug\SonicDoc.API.csproj.CoreCompi
 D:\UPC2020\Moviles\SonicDoc\SonicDoc.API\obj\Debug\SonicDoc.API.csproj.CopyComplete
 D:\UPC2020\Moviles\SonicDoc\SonicDoc.API\obj\Debug\SonicDoc.API.dll
 D:\UPC2020\Moviles\SonicDoc\SonicDoc.API\obj\Debug\SonicDoc.API.pdb
+=======
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\ApplicationInsights.config
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\roslyn\csc.exe
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\roslyn\System.Collections.Immutable.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\roslyn\System.Reflection.Metadata.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\roslyn\vbc.exe
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\roslyn\VBCSCompiler.exe
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\roslyn\VBCSCompiler.exe.config
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\SonicDoc.API.dll.config
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\SonicDoc.API.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\SonicDoc.API.pdb
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Antlr3.Runtime.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\EntityFramework.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\EntityFramework.SqlServer.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.AI.DependencyCollector.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.AI.Web.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.AI.WindowsServer.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.ApplicationInsights.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.Web.Infrastructure.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Newtonsoft.Json.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Net.Http.Formatting.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.Helpers.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.Http.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.Http.WebHost.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.Mvc.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.Optimization.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.Razor.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.WebPages.Deployment.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.WebPages.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.WebPages.Razor.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\WebGrease.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\EntityFramework.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\EntityFramework.SqlServer.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.AI.DependencyCollector.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.AI.Web.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.AI.WindowsServer.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.ApplicationInsights.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Newtonsoft.Json.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Net.Http.Formatting.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.Helpers.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.Http.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.Http.WebHost.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.Mvc.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.Optimization.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.Razor.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.WebPages.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.WebPages.Deployment.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\System.Web.WebPages.Razor.xml
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\Antlr3.Runtime.pdb
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\es\System.Net.Http.Formatting.resources.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\es\System.Web.Helpers.resources.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\es\System.Web.Http.resources.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\es\System.Web.Http.WebHost.resources.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\es\System.Web.Mvc.resources.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\es\System.Web.Optimization.resources.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\es\System.Web.Razor.resources.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\es\System.Web.WebPages.resources.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\obj\Debug\SonicDoc.API.csprojAssemblyReference.cache
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\obj\Debug\SonicDoc.API.csproj.CoreCompileInputs.cache
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\obj\Debug\SonicDoc.API.csproj.CopyComplete
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\obj\Debug\SonicDoc.API.dll
+E:\Aplicaciones Moviles\tb4\repo2\SonicDoc.API\obj\Debug\SonicDoc.API.pdb
+>>>>>>> 41dd24ce8ef0c3aeafcb3bce2ba9397ec9716c4f
