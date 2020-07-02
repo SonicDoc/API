@@ -163,7 +163,6 @@
     <Folder Include="Content\css\" />
     <Folder Include="Content\font-awesome\" />
     <Folder Include="Content\fonts\" />
-    <Folder Include="Content\img\" />
     <Folder Include="Content\js\" />
     <Folder Include="Content\locales\" />
   </ItemGroup>
@@ -265,6 +264,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Content\img\001.png" />
+    <Content Include="Content\img\002.png" />
+    <Content Include="Content\img\003.png" />
+    <Content Include="Content\img\Logo_hor_01.png" />
+    <Content Include="Content\img\SonicDoc_logo_01.png" />
     <Content Include="doc.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

@@ -21,7 +21,7 @@
         <nav class="navbar navbar-default navbar-fixed-top navbar-expand-md" role="navigation">
             <div class="container">
                 @*<a class="navbar-brand" href="@Url.Action("Login","Home",new { area = "" },null)">App API</a>*@
-                <a class="navbar-brand" href="@Url.Action("Index", "Help",new { area = "" },null)">App API</a>
+                @*<a class="navbar-brand" href="@Url.Action("Index", "Help",new { area = "" },null)">App API</a>*@
                 <div class="navbar-header page-scroll">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
                         <i class="fa fa-bars"></i>
@@ -31,11 +31,8 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="nav-link page-scroll" href="#page-top">Inicio</a></li>
                         <li><a class="nav-link page-scroll" href="#features">Caracteristicas</a></li>
-                        <li><a class="nav-link page-scroll" href="#team">Equipo</a></li>
-                        @*<li><a class="nav-link page-scroll" href="#testimonials">Testimonials</a></li>
-                            <li><a class="nav-link page-scroll" href="#pricing">Pricing</a></li>*@
-                        <li><a class="nav-link page-scroll" href="#contact">Contacto</a></li>
-                        @*<li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>*@
+                        <li><a class="nav-link page-scroll" href="#team">Equipo</a></li>                        
+                        <li><a class="nav-link page-scroll" href="#contact">Contacto</a></li>                      
                     </ul>
                 </div>
             </div>
@@ -50,24 +47,13 @@
             <div class="carousel-item active">
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>
-                            Reserva tu cita<br />
-                            Facil y Rapido
-                        </h1>
-                        <p>Completar texto</p>
-                        <p>
-                            <a class="caption-link" href="#" role="button">
-                                <img src="~/Content/img/buttonandroid.png" />
-                            </a>
-                            <a class="caption-link" href="#" role="button">
-                                <img src="~/Content/img/buttonios.png" />
-                            </a>
-
-                        </p>
+                        <img style="max-height:200px" src="~/Content/img/Logo_hor_01.png" />
+                        <h1> Vive una nueva experiencia </h1>
                     </div>
                     <div class="carousel-image wow zoomIn">
                         <img src="~/Content/img/cellphones.png" alt="laptop" />
                     </div>
+
                 </div>
                 <!-- Set background for slide in css -->
                 <div class="header-back one"></div>
@@ -75,9 +61,19 @@
             <div class="carousel-item">
                 <div class="container">
                     <div class="carousel-caption blank">
-                        <h1>Todas Las especialidades <br /> Desde tu Celular.</h1>
-                        <p>Un lugar donde encontraras la solucion a tu problema</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">LERR MAS</a></p>
+                        <h1>
+                            Reserva tu cita<br />
+                            Facil y Rapido
+                        </h1>
+                        <p>Completar texto</p>
+                        <p>
+                            <a class="caption-link" href="https://play.google.com/store?hl=es_PE" target="_blank" role="button">
+                                <img src="~/Content/img/buttonandroid.png" />
+                            </a>
+                            <a class="caption-link" href="https://www.apple.com/la/ios/app-store/" target="_blank" role="button">
+                                <img src="~/Content/img/buttonios.png" />
+                            </a>
+                        </p>
                     </div>
                 </div>
                 <!-- Set background for slide in css -->
@@ -93,22 +89,35 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+
     <section id="features" class="container services">
         <div class="row">
-            <div class="col-sm-4">
-                <h2>Mision</h2>
-                <p>Detalle mision</p>
-                <p><a class="navy-link" href="#" role="button">Detalles &raquo;</a></p>
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Vista Previa<br /> <span class="navy"> App</span> </h1>
             </div>
             <div class="col-sm-4">
-                <h2>Vision</h2>
-                <p>Detalle Vision.</p>
-                <p><a class="navy-link" href="#" role="button">Detalles &raquo;</a></p>
+                <img style="max-width:200px" src="~/Content/img/001.png" />
             </div>
             <div class="col-sm-4">
-                <h2>Alcance</h2>
-                <p>Detalle Alcance.</p>
-                <p><a class="navy-link" href="#" role="button">Detalles &raquo;</a></p>
+                <img style="max-width:200px" src="~/Content/img/002.png" />
+            </div>
+            <div class="col-sm-4">
+                <img style="max-width:200px" src="~/Content/img/003.png" />
+            </div>
+
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Testimonios de Pacientes<br /> <span class="navy"> Entrevista</span> </h1>
+            </div>
+            <div class="col-sm-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7EBna-WyZyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4f4U365Au1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
         </div>
@@ -149,26 +158,10 @@
                     <p>Todo lo que desees saber con un solo click.</p>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>Una plataforma amigable </h1>
-                <p>Facilidad de uso y busqueda de Doctores. </p>
-            </div>
-        </div>
-        <div class="row features-block">
-            <div class="col-lg-6 features-text wow fadeInLeft">
-                <small>Sonic Medic</small>
-                <h2>Diseño Simple</h2>
-                <p>facil navegacion.</p>
-                <a href="" class="btn btn-primary">Learn more</a>
-            </div>
-            <div class="col-lg-6 text-right wow fadeInRight">
-                <img src="~/Content/img/dashboard.png" alt="dashboard" class="img-fluid float-right" />
-            </div>
-        </div>
+        </div> 
     </section>
+
+
     <section id="team" class="gray-section team">
         <div class="container">
             <div class="row m-b-lg">
